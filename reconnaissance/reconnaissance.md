@@ -21,3 +21,20 @@ crt.sh
 - Response headers giving away what the server is
 - Credential stuffing / password spraying
 -  get emails > spraying accounts (without locking users out)
+
+Before active scanning:
+    - self spider the site
+    - manually map the website
+    - Be careful if signed in
+
+
+nikto - vuln scanner
+`nikto -h site-interested-in`
+
+
+-SSL info
+-Safe header info (e.g. anti click jacking)
+
+
+`nmap -p 443 --scrip`
+-scan for SSL look for ciphers

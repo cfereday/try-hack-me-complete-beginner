@@ -3,3 +3,5 @@
 - Reconnaissance
 - Enumeration
 - Fingerprinting
+- Password spraying
+
